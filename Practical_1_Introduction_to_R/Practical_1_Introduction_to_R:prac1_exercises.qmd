@@ -30,7 +30,6 @@ print(class(x))
 ```
 
 ```{r}
-# for example
 cell_id_1 <- "CX1"
 cell_id_2 <- "CX2"
 
