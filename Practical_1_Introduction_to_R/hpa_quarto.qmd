@@ -1,0 +1,20 @@
+---
+title: "MB1A"
+author: "Kendra Kan"
+editor: visual
+---
+calculate the total number of genes with regionally elevated expression in the forebrain regions in human, pig and mouse.
+the cerebral cortex, basal ganglia, thalamus and hypothalamus
+```{r}
+human<-sum(180,83,57,110)
+print(human)
+```
+```{r}
+pig<-sum(109,157,31,45)
+print(pig)
+```
+```{r}
+mouse<-sum(55,185,60,98)
+print(mouse)
+```
+Human had the highest number of genes with regionally elevated expression
